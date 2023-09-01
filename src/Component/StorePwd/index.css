@@ -1,0 +1,66 @@
+.list-pwd-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+  width: 31%;
+  border: 3px solid #7683cb;
+  border-radius: 5px;
+  padding: 1%;
+  font-family: roboto;
+}
+
+.pwd-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+
+.color-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  padding: 2%;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.first-word {
+  color: #ffffff;
+  font-size: large;
+  font-weight: 500;
+}
+
+.pwd-list-container {
+  padding-left: 10px;
+}
+
+.name-card {
+  color: #ffffff;
+  font-size: medium;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.star-img {
+  width: 90px;
+  margin: 0px;
+}
+
+.del-img {
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+}
+
+.img-btn {
+  background-color: transparent;
+  border: none;
+}

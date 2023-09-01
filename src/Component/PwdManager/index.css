@@ -1,0 +1,240 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  width: 80%;
+  font-family: roboto;
+}
+
+.app-logo-img {
+  height: 80px;
+  width: 250px;
+}
+
+.add-container {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  background-color: #5763a5;
+  border-radius: 10px;
+}
+
+.add-pass-img {
+  height: auto;
+  width: 35%;
+  padding: 1%;
+}
+
+.form-container-page {
+  height: auto;
+  width: 50%;
+  margin: 3%;
+}
+
+.form-card {
+  background-color: #454f84;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  border-radius: 10px;
+  padding: 4%;
+  padding-top: 0%;
+}
+
+.head-card {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logo-list-card {
+  height: 40px;
+  width: 40px;
+  background-color: #f8fafc;
+  padding: 10px;
+  border-right: 1px solid #b6c3ca;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.input-card {
+  height: 40px;
+  width: 90%;
+  margin-bottom: 3%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #94a3b8;
+  background-color: #f8fafc;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.add-btn {
+  height: 35px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.show-container {
+  margin-top: 2%;
+  height: 60%;
+  width: 100%;
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 2%;
+}
+
+.show-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pwd-head {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  padding-top: 1%;
+}
+
+.counting {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #5763a5;
+  border: 1px solid #f8fafc;
+  margin-left: 2%;
+  border-radius: 10px;
+}
+
+.search-pwd-card {
+  height: 30px;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.search-img {
+  padding: 2%;
+  background-color: #f8fafc;
+  height: 25px;
+  width: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #94a3b8;
+}
+
+.search-input {
+  background-color: #f8fafc;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
+
+.horizontal-line {
+  border: 1px solid #7683cb;
+}
+
+.pwd-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.box-card {
+  height: 20px;
+  width: 20px;
+}
+
+.label-card {
+  padding-left: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-pwd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.no-pwd-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.no-pwd-img {
+  height: 250px;
+}
+
+.list-all-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 2%;
+}
